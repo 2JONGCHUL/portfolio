@@ -3,7 +3,7 @@ ScrollTrigger.create({
   start: "top 30%", //(scroller-start 위치)
   end: "bottom 5%", //(end 위치)
   endTrigger: ".contact-text-box",
-  markers: true,
+  // markers: true,
   toggleClass: "trigger",
   scrub: true, // 모션바운스(scrub: 1: 숫자가 높아질수록 애니메이션이 부드러워짐, true도 가능)
   onEnter: function () {
@@ -23,4 +23,3 @@ ScrollTrigger.create({
     $("fitness-section").removeClass("trigger");
   },
 });
-
