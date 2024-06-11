@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이종철 웹 포트폴리오</title>
+
+    <!-- 공통 JS 연결-->
+    <script defer src="script/script.js"></script>
+
+    <!-- 폰트 적용 -->
+    <link rel="stylesheet" href="style/font.css" />
+
+    <!-- 공통 css 연결 -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- gasp 불러오기 -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <!-- ScrollTrigger트리거 불러오기 -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <!-- poppins 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JQ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- 테일윈드 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS 라이브러리 불러오기 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 폰트어썸 -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    /> -->
+  </head>
+  <body>
+    <div class="portfolo-wrap">
+      <header id="header">
+        <div class="header-con">
+          <nav id="nav">
+            <a class="header-logo" href="#">
+              <img src="./images/로고real.png" alt="크롱로고" />
+            </a>
+            <ul class="nav-menu-box">
+              <li>
+                <a href="#about"> ABOUT ME </a>
+              </li>
+              <li>
+                <a href="#portfolio"> PORTFOLIO </a>
+              </li>
+              <li>
+                <a href="#contact"> CONTACT </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section id="about">
+          <div class="bubles">
+            <span style="--i: 11"></span>
+            <span style="--i: 24"></span>
+            <span style="--i: 13"></span>
+            <span style="--i: 17"></span>
+            <span style="--i: 21"></span>
+            <span style="--i: 26"></span>
+            <span style="--i: 12"></span>
+            <span style="--i: 16"></span>
+            <span style="--i: 20"></span>
+            <span style="--i: 18"></span>
+            <span style="--i: 14"></span>
+            <span style="--i: 21"></span>
+            <span style="--i: 19"></span>
+            <span style="--i: 13"></span>
+            <span style="--i: 11"></span>
+            <span style="--i: 24"></span>
+            <span style="--i: 18"></span>
+            <span style="--i: 12"></span>
+            <span style="--i: 17"></span>
+            <span style="--i: 27"></span>
+            <span style="--i: 22"></span>
+            <span style="--i: 12"></span>
+            <span style="--i: 19"></span>
+            <span style="--i: 10"></span>
+            <span style="--i: 20"></span>
+            <span style="--i: 28"></span>
+            <span style="--i: 21"></span>
+            <span style="--i: 19"></span>
+            <span style="--i: 23"></span>
+          </div>
+          <div class="about-con">
+            <div class="about-box">
+              <div class="about-img">
+                <div
+                  class="about-img-box"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                >
+                  <img src="./images/profile.jpg" alt="증명사진" />
+                </div>
+              </div>
+              <div class="about-text">
+                <div class="about-text-box">
+                  <p data-aos="fade-up" data-aos-duration="500">
+                    안녕하세요! <br />
+                    웹 퍼블리셔 중 최고가 될 인재,<br />
+                    신입 웹 퍼블리셔 이종철입니다.
+                  </p>
+                  <p data-aos="fade-up" data-aos-duration="1000">
+                    HTML, CSS, Javascript 등을 이용하여 제가 생각한 디자인의
+                    웹페이지를 구현하는 것이 너무 재미있고 즐겁습니다.<br />
+                    팀에 소속되어 팀원들과 함께 다른 사용자들이 원하고 만족할 수
+                    있는 다양하고 색다른 웹페이지를 구현하여 만든다면 더욱
+                    보람차고 행복할 것 같습니다.
+                  </p>
+                  <p data-aos="fade-up" data-aos-duration="1500">
+                    현재로선 아직 부족할 수 있지만, 누구보다 더 뜨거운 열정과
+                    노력을 바탕으로 다양한 웹페이지들을 보고 만들며<br />
+                    웹 접근성과 웹 표준을 고려하고 준수하는 마크업으로 구현할 수
+                    있도록 하고<br />
+                    다양한 프레임 워크 환경, 새로운 언어에 대해서 경험해보고
+                    연구하며 공부해나가며 <br />여러 경험들을 가치 있게 만들어
+                    한단계 한단계 발전하는 모습을 보여드리겠습니다.
+                  </p>
+                  <p data-aos="fade-up" data-aos-duration="2000">
+                    저 이종철은 꼭 실력있는 최고의 퍼블리셔가 되겠습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio">
+          <div class="pf-sticky">
+            <h1>PORTFOLIO</h1>
+            <h1>PORTFOLIO</h1>
+            <h1>PORTFOLIO</h1>
+            <h1>PORTFOLIO</h1>
+            <h1>PORTFOLIO</h1>
+            <h1>PORTFOLIO</h1>
+            <h1>PORTFOLIO</h1>
+          </div>
+          <div class="portfolio-con">
+            <div class="pf-header">
+              <h2>PORTFOLIO</h2>
+            </div>
+            <div class="porfol">
+              <div class="pf-left">
+                <div
+                  class="pf-left-img-box"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <img
+                    src="./images/mainpage.png"
+                    alt="에브리유니폼 메인화면"
+                  />
+                </div>
+              </div>
+              <div class="pf-right">
+                <div
+                  class="pf-right-box"
+                  data-aos="fade-left"
+                  data-aos-duration="1300"
+                >
+                  <div class="pf-title">
+                    <p>창작디자인 반응형 WEB SITE [PC / MOBILE]</p>
+                    <h3>EVERY UNIFORM</h3>
+                  </div>
+                  <div class="pf-intro">
+                    <p>
+                      세계적으로 다양한 축구선수 유니폼을 판매하는 온라인쇼핑몰
+                      웹사이트를 구현했습니다. 탭메뉴를 활용한 상품들의 진열,
+                      swiper 기능을 이용하여 노출되는 상품이미지, 배너이미지를
+                      쉽게 어필할 수 있도록 했습니다.
+                    </p>
+                  </div>
+
+                  <ul class="pf-contents">
+                    <li>
+                      <h4>기여도</h4>
+                      <p>퍼블리싱 100% + 디자인 100%</p>
+                    </li>
+                    <li>
+                      <h4>기술스택</h4>
+                      <p>HTML / CSS / Javascript / Jquery</p>
+                    </li>
+                    <li>
+                      <h4>page</h4>
+                      <p>3page: 메인 페이지 / 구매 페이지 / 컬렉션 페이지</p>
+                    </li>
+                  </ul>
+                  <div class="pf-btn">
+                    <div class="prd-view-btn">
+                      <a href="https://2jongchul.github.io/everyuniform/"
+                        >WEB 보러가기</a
+                      >
+                    </div>
+                    <div class="prd-view-btn">
+                      <a href="#">프로세스 페이지 보러가기 (figma)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="porfol">
+              <div class="pf-left">
+                <div
+                  class="pf-left-img-box"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <img
+                    src="./images/pineavenue.png"
+                    alt="파인에비뉴 메인화면"
+                  />
+                </div>
+              </div>
+              <div class="pf-right">
+                <div
+                  class="pf-right-box"
+                  data-aos="fade-left"
+                  data-aos-duration="1300"
+                >
+                  <div class="pf-title">
+                    <p>창작디자인 반응형 WEB SITE [PC / MOBILE]</p>
+                    <h3>PINE AVENEU</h3>
+                  </div>
+                  <div class="pf-intro">
+                    <p>
+                      을지로3가역에 위치한 오피스타워에 대한 웹사이트를
+                      구현했습니다. 애니메이션을 이용한 페이지에 생동감을
+                      주었고, fullpage.js를 활용해 다양한 정보를 한눈에 볼 수
+                      있도록 작업하였습니다.
+                    </p>
+                  </div>
+
+                  <ul class="pf-contents">
+                    <li>
+                      <h4>기여도</h4>
+                      <p>퍼블리싱 100% + 디자인 100%</p>
+                    </li>
+                    <li>
+                      <h4>기술스택</h4>
+                      <p>HTML / CSS / Javascript / Jquery</p>
+                    </li>
+                    <li>
+                      <h4>page</h4>
+                      <p>1page: 메인 페이지</p>
+                    </li>
+                  </ul>
+                  <div class="pf-btn">
+                    <div class="prd-view-btn">
+                      <a href="https://2jongchul.github.io/pineaveneu/"
+                        >WEB 보러가기</a
+                      >
+                    </div>
+                    <div class="prd-view-btn">
+                      <a
+                        href="https://www.figma.com/design/pXErUcTkWXycPrQ6OOz0nm/%ED%8C%8C%EC%9D%B8%EC%97%90%EB%B9%84%EB%89%B4?node-id=0-1&t=L9rALl9JoP54z17E-0"
+                        >프로세스 페이지 보러가기 (figma)</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="porfol">
+              <div class="pf-left">
+                <div
+                  class="pf-left-img-box"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <img src="./images/stussy.png" alt="스투시 메인화면" />
+                </div>
+              </div>
+              <div class="pf-right">
+                <div
+                  class="pf-right-box"
+                  data-aos="fade-left"
+                  data-aos-duration="1300"
+                >
+                  <div class="pf-title">
+                    <p>리디자인 반응형 WEB SITE [PC / MOBILE]</p>
+                    <h3>Stüssy</h3>
+                  </div>
+                  <div class="pf-intro">
+                    <p>
+                      스트릿 브랜드 stussy만의 힙스러움, 트렌드를 강조하기 위해
+                      기존 디자인보다 상품들을 더 강조할 수 있도록 grid형태로
+                      노출하였으며 팝업메뉴를 따로 만들어 매장위치를 알 수
+                      있도록 작업했습니다.
+                    </p>
+                  </div>
+
+                  <ul class="pf-contents">
+                    <li>
+                      <h4>기여도</h4>
+                      <p>퍼블리싱 100% + 디자인 100%</p>
+                    </li>
+                    <li>
+                      <h4>기술스택</h4>
+                      <p>HTML / CSS / Javascript / Jquery</p>
+                    </li>
+                    <li>
+                      <h4>page</h4>
+                      <p>2page: 메인 페이지 / 상품 페이지</p>
+                    </li>
+                  </ul>
+                  <div class="pf-btn">
+                    <div class="prd-view-btn">
+                      <a href="http://stussy.ironv.shop/">WEB 보러가기</a>
+                    </div>
+                    <div class="prd-view-btn">
+                      <a
+                        href="https://www.figma.com/design/qTxnb7z6Lef3uyMgB8xueJ/%EC%8A%A4%ED%88%AC%EC%8B%9C?node-id=143-2&t=ApQtoAzfEBH8DpW5-0"
+                        >프로세스 페이지 보러가기 (figma)</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="contact-con">
+            <div class="contact-text-box">
+              <span>경험을 가치 있게 준비된 인재</span>
+              <span class="text-animation">경험을 가치 있게 준비된 인재</span>
+              <span class="text-animation">경험을 가치 있게 준비된 인재</span>
+              <span class="text-animation">경험을 가치 있게 준비된 인재</span>
+              <span class="text-animation">경험을 가치 있게 준비된 인재</span>
+              <span class="text-animation">경험을 가치 있게 준비된 인재</span>
+              <span class="text-animation">경험을 가치 있게 준비된 인재</span>
+            </div>
+          </div>
+        </section>
+
+        <footer id="footer">
+          <div class="ft-con">
+            <div class="ft-text">
+              <p>최고의 퍼블리셔가 될 인재 웹 퍼블리셔 이종철 입니다.</p>
+              <p>언제든 연락 주세요!</p>
+            </div>
+
+            <div class="info">
+              <p class="phone">010-9532-3239</p>
+              <p class="email">qjwrhc15@gmail.com</p>
+            </div>
+
+            <div class="copyright">
+              <p>
+                Designed and developed with by LEE JONG-CHEOL. © 2024 All rights
+                reserved
+              </p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
+
+<script>
+  AOS.init();
+</script>
+<script>
+  AOS.init({
+    disable: "mobile", // 'phone', 'tablet', 'mobile'
+  });
+</script>
