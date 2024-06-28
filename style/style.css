@@ -610,6 +610,9 @@
   .nav-menu-box li a {
     font-size: 0.7rem;
   }
+  #about {
+    padding: 5rem 0 3rem 0;
+  }
   .about-con {
     padding: 0;
   }
