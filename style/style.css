@@ -66,7 +66,7 @@
 .about-text {
   height: 100%;
   /* padding: 1rem; */
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -533,6 +533,15 @@
   }
 }
 
+@media (width <= 1030px) {
+  #nav {
+    flex-direction: column;
+  }
+  .contact-text-box > span {
+    font-size: 4.5rem;
+  }
+}
+
 @media (width <= 1150px) {
   .about-box {
     flex-direction: column;
@@ -559,14 +568,6 @@
   }
 }
 
-@media (width <= 1030px) {
-  #nav {
-    flex-direction: column;
-  }
-  .contact-text-box > span {
-    font-size: 4.5rem;
-  }
-}
 @media (width <= 930px) {
   .nav-menu-box li a {
     font-size: 1rem;
