@@ -98,9 +98,6 @@
   object-fit: cover;
 }
 
-.about-text-box {
-  /* padding-left: 50px; */
-}
 .about-text-box > p {
   font-size: 18px;
   margin-top: 0.8rem;
@@ -486,6 +483,16 @@
     min-width: 50%;
   }
 
+  .about-text-box > p {
+    font-size: 16px;
+    margin-top: 0.8rem;
+  }
+  .about-text-box > p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
   .pf-sticky > h1 {
     font-size: 5rem;
   }
@@ -535,17 +542,20 @@
     height: 95%;
   }
   .about-text-box > p:nth-child(1) {
-    font-size: 1.7rem;
-    line-height: 1.7rem;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
   }
+
   .about-text-box > p:nth-child(2) {
     display: none;
   }
+
   .about-text-box > p:nth-child(3) {
-    font-size: 1rem;
+    font-size: 16px;
   }
   .about-text-box > p:nth-child(4) {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
 }
 
@@ -562,10 +572,28 @@
     font-size: 1rem;
   }
 
+  .about-text-box > p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .about-text-box > p:nth-child(2) {
+    display: none;
+  }
+
+  .about-text-box > p:nth-child(3) {
+    font-size: 15px;
+  }
+  .about-text-box > p:nth-child(4) {
+    font-size: 16px;
+  }
+
   .contact-text-box > span {
     font-size: 4rem;
   }
 }
+
 @media (width <= 825px) {
   .contact-text-box > span {
     font-size: 3.5rem;
@@ -592,17 +620,20 @@
     width: 100%;
   }
   .about-text-box > p:nth-child(1) {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
   }
+
   .about-text-box > p:nth-child(2) {
     display: none;
   }
+
   .about-text-box > p:nth-child(3) {
-    font-size: 0.9rem;
+    font-size: 13px;
   }
   .about-text-box > p:nth-child(4) {
-    font-size: 1rem;
+    font-size: 15px;
   }
   .porfol {
     padding-bottom: 5rem;
@@ -620,15 +651,18 @@
   .pf-contents {
     font-size: 0.9rem;
   }
+
   #contact {
     height: 40vh;
   }
   .contact-text-box > span {
     font-size: 1.8rem;
   }
+
   .ft-text {
     font-size: 1rem;
   }
+
   .phone,
   .email {
     font-size: 1rem;
